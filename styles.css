@@ -1,1 +1,59 @@
+*{
+   
+    margin:0;
+    padding-top: 20px;
+}
 
+body{
+
+    background-color: purple;
+    align-items: center;
+    align-content: center;
+}
+
+#main-container{
+
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    /* border-radius: 20px; */
+    /* background-color: rgb(252, 247, 252); */
+    /* background-color: white; */
+}
+
+#mob-tab {
+    /* display:flex;
+    flex-flow: column; */
+    width :20%;
+    height:70%;
+    border: 2px;
+    border-radius: 10px ;
+    background-color: white;
+    box-shadow: 3px 3px lightblue;
+    
+
+    /* background-color: white; */
+
+}
+
+ img{
+
+    border: 2px white;
+    box-shadow: 20px;
+    height: 600px;
+    width: 300px; 
+    
+    padding-left: 1px;
+  
+    align-items: center;
+}
+
+#nav-bar{
+list-style: none;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+
+}
